@@ -1,6 +1,8 @@
 package com.benjaminledet.pokedex.data.model
 
 import androidx.room.ColumnInfo
+import com.google.gson.JsonObject
+import java.util.*
 
 data class PokemonDetail(
 
@@ -11,12 +13,20 @@ data class PokemonDetail(
     val height: Double,
 
     @ColumnInfo(name = TYPES)
-    val types: List<String>
+    val types: List<String>,
+
+    /*@ColumnInfo(name = SPRITES)
+    val sprites: Map<String, String>,*/
+
+    @ColumnInfo(name = MOVES)
+    val moves: List<String>
 ) {
 
     companion object {
         const val WEIGHT = "weight"
         const val HEIGHT = "height"
         const val TYPES = "types"
+        const val SPRITES = "sprites"
+        const val MOVES = "moves"
     }
 }

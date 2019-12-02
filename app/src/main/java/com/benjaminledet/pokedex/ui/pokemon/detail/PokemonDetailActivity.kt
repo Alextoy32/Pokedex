@@ -1,7 +1,9 @@
 package com.benjaminledet.pokedex.ui.pokemon.detail
 
 import android.os.Bundle
+import android.util.Log
 import android.view.MenuItem
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import androidx.lifecycle.Observer
@@ -39,7 +41,15 @@ class PokemonDetailActivity: AppCompatActivity() {
             }
             pokeType.text = afficheType
             Picasso.get().load(pokemon?.iconUrl).into(icon)
+
+            //icon.setOnLongClickListener(View.OnLongClickListener() {})
         })
+
+        viewModel.moves.observe(this, Observer { moves ->
+            Log.d("PokemonDetailActivity", "moves: $moves")
+        })
+
+
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean = when (item.itemId) {
