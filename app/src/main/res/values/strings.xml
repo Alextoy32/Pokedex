@@ -23,5 +23,9 @@
     <string name="theme_dark">Foncé</string>
     <string name="theme_default">Automatique</string>
     <string name="imgDescPsy">Image de psykokwac</string>
+    <string name="descdefault">DescDefault</string>
+    <string name="descriptionPokemonDetail">Description</string>
+    <string name="pokeType">Types</string>
+    <string name="pokemonimage">pokemonImage</string>
 
 </resources>
