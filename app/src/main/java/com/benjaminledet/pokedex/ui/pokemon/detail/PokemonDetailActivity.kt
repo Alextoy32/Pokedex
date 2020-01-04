@@ -34,7 +34,7 @@ class PokemonDetailActivity: AppCompatActivity() {
             title = pokemon?.name
             weight.text = getString(R.string.pokemon_weight, pokemon?.detail?.weight.toString())
             height.text = getString(R.string.pokemon_height, pokemon?.detail?.height.toString())
-            pokemonDesc.text = "Description du Pokémon a chercher dans l'api"
+            pokemonDesc.text = "Description du Pokémon pokemon-spacies sur l'api"
             var afficheType: String = ""
             pokemon?.detail?.types?.map {
                 afficheType += "$it "
