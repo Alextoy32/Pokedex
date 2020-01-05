@@ -27,5 +27,8 @@
     <string name="descriptionPokemonDetail">Description</string>
     <string name="pokeType">Types</string>
     <string name="pokemonimage">pokemonImage</string>
+    <string name="movename">MoveName</string>
+    <string name="ppNumberString">PP</string>
+    <string name="powerString">power</string>
 
 </resources>
