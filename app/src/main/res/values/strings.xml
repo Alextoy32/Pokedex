@@ -34,5 +34,7 @@
     <string name="MoveTypeLabel">Type</string>
     <string name="MovePpLabel">PP</string>
     <string name="MovePowerLabel">Power</string>
+    <string name="movesTitle">Moves</string>
+    <string name="ct_item_image">CT Item Image</string>
 
 </resources>

@@ -54,7 +54,7 @@ class MoveListAdapter(val moves: List<Move>, val context: Context) :
             "poison"    -> getColor(context ,R.color.poison)
             "ground"    -> getColor(context ,R.color.ground)
             "flying"    -> getColor(context ,R.color.flying)
-            "Psychic"   -> getColor(context ,R.color.Psychic)
+            "psychic"   -> getColor(context ,R.color.Psychic)
             "bug"       -> getColor(context ,R.color.bug)
             "rock"      -> getColor(context ,R.color.rock)
             "ghost"     -> getColor(context ,R.color.ghost)

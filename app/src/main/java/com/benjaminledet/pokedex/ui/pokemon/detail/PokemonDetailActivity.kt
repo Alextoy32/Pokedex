@@ -79,7 +79,7 @@ class PokemonDetailActivity: AppCompatActivity() {
             "poison"    -> getColor(R.color.poison)
             "ground"    -> getColor(R.color.ground)
             "flying"    -> getColor(R.color.flying)
-            "Psychic"   -> getColor(R.color.Psychic)
+            "psychic"   -> getColor(R.color.Psychic)
             "bug"       -> getColor(R.color.bug)
             "rock"      -> getColor(R.color.rock)
             "ghost"     -> getColor(R.color.ghost)
